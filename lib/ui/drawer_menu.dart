@@ -16,8 +16,11 @@ class _DrawerMenuState extends State<DrawerMenu> {
           UserAccountsDrawerHeader(
             accountName: const Text('Sercan ARI'),
             accountEmail: const Text('sercanari1904@gmail.com'),
-            currentAccountPicture:
-                Image.network('https://i.hizliresim.com/qci0cc5.jpeg'),
+            currentAccountPicture: new CircleAvatar(
+              radius: 50,
+              backgroundImage:
+                  NetworkImage("https://i.hizliresim.com/qci0cc5.jpeg"),
+            ),
             otherAccountsPictures: const <Widget>[
               CircleAvatar(
                 backgroundColor: Colors.purple,
