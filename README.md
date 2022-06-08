@@ -1,4 +1,4 @@
-# Şirket-Tanitim-Taslak
+# Sirket-Tanitim-Taslak
 
 A new Flutter project.
 
